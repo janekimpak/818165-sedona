@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Евгения  Пак](https://up.htmlacademy.ru/htmlcss/23/user/818165).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Зубов] (https://htmlacademy.ru/profile/serj).
 
 ---
 
