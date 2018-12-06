@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: 0,0,0;
+  text-transform: uppercase;
+
+  background-color: 255,255,255;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 57px;
+  color: 0,0,0;
+
+  background-color: 255,255,255;
+ }
+
+.site-navigation,
+.main-navigation {
+  list-style: none;
+  color: #000000;
+ }
+
+.main-navigation a:hover {
+  color: 0,0,0;
+}
+.main-navigation a:focus {
+  color: 129,179,210;
+}
+.main-navigation a:active {
+  color: 118,99,87;
+}
+.site-navigation a:hover {
+  color: 0,0,0;
+}
+.site-navigation a:focus {
+  color: 129,179,210;
+}
+.site-navigation a:active {
+  background-color: 255,255,255;
+  color: 118,99,87;
+}
+
+
+.desk-page {
+  background-image: url(img/bg.png);
+}
+
+.advanteger-1 {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.advanteger-2 {
+  text-align: center;
+}
+
+.serch {
+  text-align: center;
+}
+.form-title
+.form-button {
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.form-rows {
+  font-weight: 700;
+}
+
+.main-footer {
+  background-color: 249,251,246;
+}
+
+.result-title {
+  font-weight: 700;
+}
+
+.button {
+  background-color: 129,179,210;
+}
+
+.social-button {
+  text-align: center;
+}
+
+.social-button ul {
+  list-style: none;
+}
+
+.search-results ul{
+	list-style: none;
+}

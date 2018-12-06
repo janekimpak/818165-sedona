@@ -3,18 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: SEDONA</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
     <a class="main-header-logo">
     <img src="img/logo.svg" width="111" height="24" alt="Логотип  «Sedona»">
     </a>
-    <nav class="main-navigation">
+    <nav class="main-navigation" aria-label="Навигация по сайту">
       <ul class="site-navigation">
         <li><a href="info.html">Информация</a></li>
         <li><a href="pic.html">Фото и видео</a></li>
         <li><a href="map.html">Карта штата</a></li>
-        <li><a href="catalog.html">Гостиницы</a></li>
+        <li><a href="catalog.html">Гостиницы</a></li>         
       </ul> 
     </nav>
   </header>
@@ -23,7 +26,7 @@
       <li>
         <img src="img/amara.jpg" width="128" height="93" alt="Hotel-Amara"> 
         <section class="hotel-descripton">
-          <h2 class="result-amara">Amara resort & spa</h2>
+          <h2 class="result-title">Amara resort & spa</h2>
           <span class="hotel-type">Гостиница</span>
           <span class="hotel-price">от 4000 р.</span><br>
           <a class="button" href="#">Подробнее</a>
@@ -42,7 +45,7 @@
       <li>
         <img src="img/desert.jpg" width="128" height="93" alt="Hotel-Desert"> 
         <section class="hotel-descripton">
-          <h2 class="result-amara">Desert quail inn</h2>
+          <h2 class="result-title">Desert quail inn</h2>
           <span class="hotel-type">Мотель</span>
           <span class="hotel-price">от 3000 р.</span><br>
           <a class="button" href="#">Подробнее</a>
@@ -60,7 +63,7 @@
       <li>
         <img src="img/villas.jpg" width="128" height="93" alt="Villas"> 
         <section class="hotel-descripton">
-          <h2 class="result-villas">Villas at poco diablo</h2>
+          <h2 class="result-title">Villas at poco diablo</h2>
           <span class="hotel-type">Аппартаменты</span>
           <span class="hotel-price">от 2000 р.</span><br>
           <a class="button" href="#">Подробнее</a>
@@ -79,9 +82,9 @@
     <a href="index.html">#vizitsedona</a>
     <div class="footer-social">
     <ul>
-      <li><a class="social-buttom "href="#"><img src="img/twitter.svg" alt="иконка ссылки twitter">twitter</a></li>
-      <li><a class="social-buttom "href="#"><img src="img/fb-icon.svg" alt="иконка ссылки facebook">facebook</a></li>
-      <li><a class="social-buttom "href="#"><img src="img/youtube.svg" alt="иконка ссылки youtube">youtube</a></li>
+      <li><a class="social-button" href="#"><img src="img/twitter.svg" alt="иконка ссылки twitter"></a></li>
+      <li><a class="social-button" href="#"><img src="img/fb-icon.svg" alt="иконка ссылки facebook"></a></li>
+      <li><a class="social-button" href="#"><img src="img/youtube.svg" alt="иконка ссылки youtube"></a></li>
     </ul>
     </div>
     <p class="footer-copyright">
