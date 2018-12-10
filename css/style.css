@@ -42,6 +42,9 @@ a {
   color: #cacaca;
 }
 
+nav-item--active {
+  color: #766357;
+}
 
 .desk-page {
   background-image: url(../img/bg.jpg);
@@ -86,11 +89,11 @@ a {
   color: #ffffff;
 }
 
-.button-more a:hover {
+.button-more:hover {
   background-color: #669ec0;
 }
 
-.button-more a:active {
+.button-more:active {
   background-color: #5496bd;
   color: #88b6d1;
 }
@@ -100,11 +103,11 @@ a {
   color: #ffffff 
 }
 
-.button-book a:hover {
+.button-book:hover {
   background-color: #604e43;
 }
 
-.button-book a:active {
+.button-book:active {
   background-color: #503e33;
   color: #857871;
 }
