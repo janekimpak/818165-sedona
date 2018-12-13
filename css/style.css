@@ -42,26 +42,27 @@ a {
   color: #cacaca;
 }
 
-nav-item--active {
-  color: #766357;
-}
-
 .desk-page {
   background-image: url(../img/bg.jpg);
 }
 
-.advanteger-1 {
+.advanteger-1,
+.form-req-1 {
   text-align: center;
   font-size: 21px;
   font-weight: 700;
 }
 
-.advanteger-2 {
+.advanteger-2,
+.form-req-2 {
   text-align: center;
+  color: #333333;
 }
 
 .serch {
   text-align: center;
+  height: 482px;
+  width: 572px;
 }
 
 .form-title,
@@ -69,7 +70,11 @@ nav-item--active {
   font-size: 21px;	
   font-weight: 700;
   text-align: center;
-}
+ }
+
+ .form-title {
+ 	background-color: #766357;
+ }
 
 .form-rows {
   font-weight: 700;
@@ -83,17 +88,19 @@ nav-item--active {
   font-weight: 700;
 }
 
-.button-more
-{
+.button-more,
+.form-button {
   background-color: #81b3d2;
   color: #ffffff;
 }
 
-.button-more:hover {
+.button-more:hover,
+.form-button:hover {
   background-color: #669ec0;
 }
 
-.button-more:active {
+.button-more:active,
+.form-button:active {
   background-color: #5496bd;
   color: #88b6d1;
 }
@@ -124,3 +131,158 @@ nav-item--active {
 .container ul{
 	list-style: none;
 }
+
+.visually-hidden {
+	visibility: hidden;
+}
+
+/*сетка*/
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.main-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.main-header{
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+	display: flex;
+}
+
+.nav-list,
+.main-header-logo {
+	margin-right: 120px;
+	margin-left: 10px;
+}
+.main-header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation-wrapper,
+.container-site {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desk-page {
+  align-items: center;
+}
+
+.form-title {
+color: #ffffff;
+margin-left: 320px;
+margin-right: 320px;
+}
+
+.form-rows {
+	margin-left: 310px;
+}
+
+.main-footer {
+	display: flex;
+	padding: 35px, 0;
+	justify-content: space-between;
+}
+
+.vizitsedona,
+.footer-social,
+.footer-copyright {
+	display: flex;
+	justify-content: space-between;
+	width: 210px;
+}
+
+.vizitsedona {
+  width: 320px;
+  margin: 0;
+  margin-right: 80px;
+
+}
+
+.footer-social {
+  width: 145px;
+  min-height: 100px;
+}
+
+.footer-copyright {
+  width: 150px;
+  margin: 0;
+  margin-left: auto;
+}
+
+.main-footer,
+.footer-container {
+  display: flex;
+}
+
+.inner-container,
+.result-amara,
+.result-desert,
+.result-villas {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hotel-raiting {
+	width: 300px;
+	margin-left: 200px;
+}
+
+.result-amara,
+.result-desert,
+.result-villas {
+
+  margin-left: o;
+  margin-top: 50px;
+  margin-top: 5px solid f000000;
+}
+
+.hotel-descripton {
+	margin-left: 30px;
+}
+.result-amara,{
+  border-top: 5px solid f000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
