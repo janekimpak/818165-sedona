@@ -220,7 +220,7 @@ margin-right: 320px;
 .footer-copyright {
 	display: flex;
 	justify-content: space-between;
-	width: 210px;
+	width: 300px;
 }
 
 .vizitsedona {
@@ -271,6 +271,12 @@ margin-right: 320px;
 .hotel-descripton {
   margin-left: 30px;
 }
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .result-amara,{
   border-top: 5px solid f000000;
