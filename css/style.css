@@ -145,16 +145,16 @@ a {
 
  .adults,
  .kids {
- 	display: inline-block;
+ 	display: flex;
     width: 50%;
-    vertical-align: top;
+    justify-content: space-between;
     box-sizing: border-box;
  }
 
 
 
 .button-add,
- .button-off {
+.button-off {
  	display: flex;
  	width: 114px;
  	height: 39px;
@@ -166,17 +166,10 @@ a {
 	justify-content: space-between;
 }
 
-
-}
-.search,
-.form-rows:nth-child (2) {
-	margin-bottom: 30px;
-}
-
 .result-title {
   
   font-weight: 700;
-      margin: 0 auto;
+  margin: 0 auto;
 
 }
 
