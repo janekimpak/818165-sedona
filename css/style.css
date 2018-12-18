@@ -153,22 +153,21 @@ a {
 
 
 
- .button-add {
+.button-add,
+ .button-off {
+ 	display: flex;
  	width: 114px;
-    padding-left: 55px;
-    padding-right: 50px;
-    position: relative;
+ 	height: 39px;
+ 	box-sizing: border-box;	
  }
 
 .form-stroke {
 	display: flex;
-}
-
-.form-stroke,
-.stroke-old {
 	justify-content: space-between;
 }
 
+
+}
 .search,
 .form-rows:nth-child (2) {
 	margin-bottom: 30px;
