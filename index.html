@@ -37,33 +37,33 @@
     </section>
     <div class="form-wrap">
       <h2 class="form-title">Поиск гостиницы в Седоне</h2>
-      <form class="search" method="post" action="https://echo.htmlacademy.ru">
+      <form id="search-id" class="search" method="post" action="https://echo.htmlacademy.ru">
       <div class="form-rows">
         <p class="form-stroke">
-          <label for="date-in">Дата заезда:</label>
+          <label class="date-label" for="date-in">Дата заезда:</label>
           <input class="stroke-date" id="date-in" type="text" name="calendar"placeholder="24 апреля 2017">
           <img class="calendar" src="img/calendar.svg" alt="calendar">
         </p>
         <p class="form-stroke">
-          <label for="date-out">Дата выезда:</label>
+          <label class="date-label" for="date-out">Дата выезда:</label>
           <input class="stroke-date" id="date-out" type="text" name="calendar" placeholder="4 июля 2017">
           <img class="calendar" src="img/calendar.svg" alt="calendar">
         </p>
         <p class="form-stroke">
-          <span class="adult">
-            <label for="adults">Взрослые:</label>
+          <span class="adults">
+            <label class="search-label" for="adults">Взрослые:</label>
             <span class="button-add">
               <button class="minus" type="button">-</button>
-              <input class="middle-two" id="adult" type="text" name="total" placeholder="2">
+              <span class="middle-two" id="adults">0</span>
               <button class="plus" type="button">+</button>
             </span>
           </span>
             <span class="kids">
-              <label for="children">Дети:</label>
+              <label class="search-label" for="children">Дети:</label>
               <span class="button-off">
-                <button type="button">-</button>
-                <input id="children" type="text" name="total" placeholder="0">
-                <button type="button">+</button>
+                <button class="minus" type="button">-</button>
+                <span class="middle-two" id="children">0</span>
+                <button class="plus" type="button">+</button>
               </span>
             </span>
           </span>
@@ -89,5 +89,6 @@
       </p>
     </footer>
   </main>
+  <script src="js/script.js"></script>
 </body>
 </html>
