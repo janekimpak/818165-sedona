@@ -497,7 +497,7 @@ input[type="radio"].visually-hidden {
     font-weight: 500;
 }
 
-.one-fourth {
+.facility {
     display: inline-block;
     width: 25%;
     vertical-align: top;
@@ -506,7 +506,7 @@ input[type="radio"].visually-hidden {
     box-sizing: border-box;
 }
 
-.one-fourth:first-child {
+.facility:first-child {
     padding-left: 72px;
 }
 .check {
@@ -527,7 +527,7 @@ input[type="radio"].visually-hidden {
   height: 50px;
   width: 0;
 }
-.one-fourth:nth-child(2n) label {
+.facility:nth-child(2n) label {
     margin-left: 42px;
 }
 
