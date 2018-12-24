@@ -130,6 +130,7 @@ a {
   outline: none;
   box-sizing: border-box;
   text-transform: uppercase;
+
   background: #f2f2f2;
 }
 
@@ -143,8 +144,8 @@ a {
 }
 
 .stroke-date {
-  width: 346px;
-  padding-right: 37px;
+  width: 322px;
+  height: 37px;
 }
 .date-label {
   line-height: 40px;
@@ -153,14 +154,30 @@ a {
 .search-label {
   line-height: 40px;
   width: 50%;
+  margin-right: 28px;
 }
-.calendar {
-  position: relative;
-  background-color: #f2f2f2;
-  padding-right: 10px;
-  bottom: 0;
-  font-size: 21px;
+.calendar1 {
+  position: absolute;
+    right: 65px;
+    bottom: 260px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 38px;
+    color: #a9a9a9;
+    cursor: pointer;
 }
+
+.calendar2 {
+  position: absolute;
+  right: 65px;
+    bottom: 205px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 38px;
+    color: #a9a9a9;
+}
+
+
 
 .adults,
 .kids {
@@ -175,9 +192,9 @@ a {
 .button-off {
   display: flex;
   height: 39px;
-  width: 125px;
-  justify-content: space-around;
-  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;  
   background-color: #f2f2f2;
 }
 
